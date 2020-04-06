@@ -1,0 +1,16 @@
+// Notice that there are pairs of shoes
+2 * shoe + 2 * shoe + 2 * shoe                            = 30
+
+man + man + 2 * shoe                                      = 20
+
+// Notice that there are pairs of things
+2 * thing + 2 * thing + man                               = 13
+
+// Notice that here is only a single shoe, and a single thing (left & right)
+// Also notice that the man is wearing a pair of shoes and a pair of things
+shoe + (man + 2 * thing + 2 * thing + 2 * shoe) * thing   = ?
+
+// Deduced values:
+shoe  = ?
+man   = ?
+thing = ?

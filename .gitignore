@@ -1,0 +1,8 @@
+# dotfiles except allowed
+.*
+!.gitignore
+!.nvmrc
+!.github
+
+# dependencies
+node_modules/

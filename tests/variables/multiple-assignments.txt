@@ -1,0 +1,9 @@
+x = 42                // Depends on nothing
+y = (x / 2)           // Depends on X       (target is on the left hand side)
+(y / 42) = z          // Depends on Y       (target is on the right hand side)
+(y / (x * 12)) = q    // Depends on Y & X   (target is on the right hand side)
+
+x = ?
+// y = ?
+z = ?
+q = ?

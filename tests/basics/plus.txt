@@ -1,0 +1,2 @@
+ 1 + 2 = ?     // Expected result:  3
+ 6 + 3 = ?     // Expected result: -3
